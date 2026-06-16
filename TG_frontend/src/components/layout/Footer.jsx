@@ -73,6 +73,7 @@ A "cookie" is a small piece of information stored by a Web server on a Web brows
 We may share personal information with our other education department and other related department entities and affiliates to help detect and prevent identity theft, fraud and other potentially illegal acts, correlate related or multiple accounts to prevent abuse of our services.
 
 We may disclose personal information, if required to do so by law or in the good faith belief that such disclosure is reasonably necessary to respond to court orders, or other legal process. We may disclose personal information to law enforcement offices, third party rights owners, or others in the good faith belief that such disclosure is reasonably necessary to enforce our Terms or Privacy Policy, respond to claims that an advertisement, posting or other content violates the rights of a third party or protect the rights, property or personal safety of our users or the general public.
+</p>
 <span style="font-weight:bold; color:#06254D; font-size:18px;">
 6. PROHIBITION AGAINST UNLAWFUL USE
 </span>
@@ -93,10 +94,6 @@ Our site links to other websites that may collect Personally Identifiable Inform
 centers, and/or other message (hereinafter collectively referred to as "Communication Services"). The User agrees and undertakes to use the Communication Services only to post, send and receive messages and material that are proper and related to the M.E. / M.TECH. (PTPG) ADMISSIONS.. By way of example, and not as a limitation, the User agrees and undertakes that when using a Communication Service, the User will not:
 </p>
 
-// <p style="margin-top:14px;">
-// By way of example, and not as a limitation, the User agrees and undertakes
-// that when using a Communication Service, the User will not:
-// </p>
 
 <ol style="padding-left:32px; margin-top:16px; line-height:2.2;">
   <li>
