@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Theme Colors */
+:root {
+  --navy: #082E5F;
+  --blue: #2EA6D9;
+  --gold: #F4B400;
+  --light: #F8FAFC;
+  --text: #082E5F;
+}
+
+/* Base */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #ffffff;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/* ========================= */
+/* 🔥 FIXED COLOR SYSTEM */
+/* ========================= */
+
+/* Backgrounds */
+.bg-primary {
+  background-color: var(--navy) !important;
+}
+
+.bg-secondary {
+  background-color: var(--gold) !important;
+}
+
+.bg-accent {
+  background-color: var(--blue) !important;
+}
+
+/* Text */
+.text-primary {
+  color: var(--navy) !important;
+}
+
+.text-secondary {
+  color: var(--gold) !important;
+}
+
+.text-primary-foreground {
+  color: #ffffff !important;
+}
+
+.text-secondary-foreground {
+  color: var(--navy) !important;
+}
+
+/* Borders */
+.border-secondary {
+  border-color: var(--gold) !important;
+}
+
+/* 🔥 IMPORTANT FIX */
+/* Only solid bg-primary gets white text */
+.bg-primary {
+  color: #ffffff !important;
+}
+
+/* ❌ REMOVED BROKEN RULE */
+/* This was causing your icons to disappear */
+/*
+.bg-primary,
+.bg-primary *,
+[class*="bg-primary"],
+[class*="bg-primary"] * {
+  color: #ffffff !important;
+}
+*/
+
+/* Keep yellow accents */
+.bg-primary .text-secondary {
+  color: var(--gold) !important;
+}
+
+/* ========================= */
+/* Buttons */
+/* ========================= */
+button {
+  cursor: pointer;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: var(--navy);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background: var(--blue);
+  color: #ffffff;
+}
+
+/* ========================= */
+/* Containers */
+/* ========================= */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ========================= */
+/* Cards */
+/* ========================= */
+.card {
+  background: #ffffff;
+  border: 1px solid #dbe3ea;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ========================= */
+/* Navbar */
+/* ========================= */
+.navbar {
+  background: var(--blue);
+  color: #ffffff;
+}
+
+.navbar a {
+  padding: 14px 18px;
+  display: inline-block;
+}
+
+/* ========================= */
+/* Top Strip */
+/* ========================= */
+.top-strip {
+  background: var(--navy);
+  color: #ffffff;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+/* ========================= */
+/* Notice Strip */
+/* ========================= */
+.notice-strip {
+  background: var(--gold);
+  color: var(--navy);
+  padding: 10px;
+  font-weight: 600;
+}
+
+/* ========================= */
+/* Hero */
+/* ========================= */
+.hero {
+  padding: 70px 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #2EA6D9, #7C2D3B);
+  color: #ffffff;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-size: 52px;
+}
+
+/* ========================= */
+/* Forms */
+/* ========================= */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+/* ========================= */
+/* Tables */
+/* ========================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+/* ========================= */
+/* Footer */
+/* ========================= */
+footer {
+  background: var(--navy);
+  color: #ffffff;
+  padding: 40px 20px;
+  margin-top: 50px;
+}
+
+/* ========================= */
+/* Print */
+/* ========================= */
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  html,
+  body,
+  #root {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 210mm !important;
+    min-height: 297mm !important;
+    overflow: hidden !important;
+    background: white !important;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  .print-area,
+  .print-area * {
+    visibility: visible !important;
+  }
+
+  .print-area {
+    position: absolute !important;
+    top: 2mm !important;
+    left: 5mm !important;
+
+    width: 200mm !important;
+    min-height: auto !important;
+    height: auto !important;
+
+    margin: 0 !important;
+    padding: 1.5mm !important;
+
+    border: none !important;
+    box-shadow: none !important;
+
+    font-size: 8.5px !important;
+    line-height: 1.05 !important;
+
+    transform: scale(0.99) !important;
+    transform-origin: top left !important;
+  }
+
+  .print-area h1 {
+    font-size: 24px !important;
+    line-height: 1.05 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .print-area h3 {
+    font-size: 11px !important;
+    padding: 4px 6px !important;
+    margin-top: 6px !important;
+    line-height: 1 !important;
+  }
+
+  .print-area p {
+    margin: 0 !important;
+  }
+
+  .print-area .grid {
+    gap: 6px !important;
+  }
+
+  .print-area img {
+    max-width: 100% !important;
+  }
+
+  .print\:hidden,
+  header,
+  footer,
+  nav,
+  button {
+    display: none !important;
+  }
+}
