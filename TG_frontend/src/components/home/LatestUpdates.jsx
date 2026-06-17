@@ -33,18 +33,43 @@ const INFORMATION = [
     icon: FileText,
     isPdf: true,
   },
+  // {
+  //   label: " Instructions and Guidelines",
+  //   href: "/pdfs/M.E.M.Tech. Instructions, Eligibility and Guidelines 2025.pdf",
+  //   icon: CalendarDays,
+  //   isPdf: true,
+  // },
+  // {
+  //   label: "Syllabus",
+  //   href: "/pdfs/M.E.M.Tech Syllabus.doc 2025.pdf",
+  //   icon: BookOpen,
+  //   isPdf: true,
+  // },
+
   {
-    label: " Instructions and Guidelines",
-    href: "/pdfs/M.E.M.Tech. Instructions, Eligibility and Guidelines 2025.pdf",
-    icon: CalendarDays,
-    isPdf: true,
-  },
-  {
-    label: "Syllabus",
-    href: "/pdfs/M.E.M.Tech Syllabus.doc 2025.pdf",
-    icon: BookOpen,
-    isPdf: true,
-  },
+  label: "Syllabus",
+  pdfs: [
+    {
+      name: "Annexure-I",
+      href: "/pdfs/M.E.M.Tech Syllabus.doc 2025.pdf",
+    },
+    {
+      name: "Annexure-II",
+      href: "/pdfs/M.E.M.Tech Syllabus.doc 2025.pdf",
+    },
+    {
+      name: "Annexure-III",
+      href: "/pdfs/M.E.M.Tech Syllabus.doc 2025.pdf",
+    },
+    {
+      name: "Annexure-IV",
+      href: "/pdfs/M.E.M.Tech Syllabus.doc 2025.pdf",
+    },
+  ],
+  icon: BookOpen,
+  isPdf: true,
+},
+
   {
     label: "The revised Second and Final Phase counselling is scheduled on 23rd October, 2025 at 2:00 PM.",
     href: "/pdfs/Revised Second Phase Counciling of ME & M.Tech. CEEP 2025.pdf",
@@ -85,26 +110,26 @@ const APPLICATION = [
 // },
 
   
-//   {
-//     label: "STEP 1: Application Fee Payment",
-//     href: "/fee-payment",
-//     icon: CreditCard,
-//   },
-//   {
-//     label: "STEP 2: Fill The Application Form",
-//     href: "/application-form",
-//     icon: FilePlus2,
-//   },
-//   {
-//     label: "STEP 3: Print Your Filled In Application Form",
-//     href: "/print-application",
-//     icon: Printer,
-//   },
-//   {
-//     label: "Know Your Payment Status",
-//     href: "/payment-status",
-//     icon: Receipt,
-//   },
+  {
+    label: "STEP 1: Application Fee Payment",
+    href: "/fee-payment",
+    icon: CreditCard,
+  },
+  {
+    label: "STEP 2: Fill The Application Form",
+    href: "/application-form",
+    icon: FilePlus2,
+  },
+  {
+    label: "STEP 3: Print Your Filled In Application Form",
+    href: "/print-application",
+    icon: Printer,
+  },
+  {
+    label: "Know Your Payment Status",
+    href: "/payment-status",
+    icon: Receipt,
+  },
   {
     label: "Know Your Registration Number",
     href: "/registration-number",
