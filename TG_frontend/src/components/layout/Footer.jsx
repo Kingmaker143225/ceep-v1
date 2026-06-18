@@ -237,7 +237,7 @@ This website has been launched to provide the candidates and public-at-large, in
   </div>
 
   {/* Content */}
-  <p className="text-sm leading-8 -m-1.5">
+  <p className="text-sm leading-8 -m-1.5 text-justify">
     M.E./M.Tech. (CEEP) Admissions are conducted by the University College of Engineering (Autonomous), Osmania University, Hyderabad, for Working Professionals seeking admission into postgraduate engineering programmes.
   </p>
 
