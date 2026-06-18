@@ -167,7 +167,7 @@ Questions regarding this statement should be directed to the following address: 
 No Warranty:
 </span>
 <p>
-The information and materials contained in the site, including text, graphics, links or other items - are provided on an "As Is" and "As Available" basis. Although, TG ECET (WP) - 2026 Committee which organises and conducts TG ECET (WP) - 2026 tries to provide information accurately it expressly disclaims liability for errors or omissions in this information and materials. No warranty of any kind, implied, express or statutory, including but not limited to the warranty of fitness for a particular purpose and freedom from computer virus, is given in conjunction with the information and materials.
+The information and materials contained in the site, including text, graphics, links or other items - are provided on an "As Is" and "As Available" basis. Although, M.E/M.Tech.(CEEP) - 2026 Committee which organises and conducts M.E/M.Tech.(CEEP) - 2026 tries to provide information accurately it expressly disclaims liability for errors or omissions in this information and materials. No warranty of any kind, implied, express or statutory, including but not limited to the warranty of fitness for a particular purpose and freedom from computer virus, is given in conjunction with the information and materials.
 </p>
 <span style="font-weight:bold; color:#06254D; font-size:18px;">
 Limitation of Liability:
@@ -230,7 +230,7 @@ This website has been launched to provide the candidates and public-at-large, in
         fontFamily: "Arial, Helvetica, sans-serif",
       }}
     >
-      TG ECET (WP) - 2026
+      M.E/M.Tech.(CEEP) - 2026
     </h4>
 
     <span className="inline-block h-[2px] w-8 bg-secondary ml-4 rounded-full" />
@@ -264,7 +264,7 @@ This website has been launched to provide the candidates and public-at-large, in
         {/* <li>
           <Link href="/about">
             <span className="hover:text-secondary transition-colors cursor-pointer">
-              About TG ECET (WP) - 2026
+              About M.E/M.Tech.(CEEP) - 2026
             </span>
           </Link>
         </li>

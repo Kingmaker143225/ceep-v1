@@ -339,7 +339,7 @@ export default function ApplicationForm() {
       <div className="container mx-auto max-w-7xl py-12 px-4">
 
         <PageBox
-          title="TG ECET (WP)- 2026 APPLICATION FORM"
+          title="M.E/M.Tech.(CEEP)- 2026 APPLICATION FORM"
         >
 
           <p className="mb-4">

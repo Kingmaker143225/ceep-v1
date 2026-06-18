@@ -145,7 +145,7 @@ const NAV_LINKS = [
     children: [
       // {
       //   href: "/about",
-      //   label: "About TG ECET (WP)-2026",
+      //   label: "About M.E/M.Tech.(CEEP)-2026",
       // },
       {
         href: "/ou",

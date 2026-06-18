@@ -489,7 +489,7 @@ pdf.save("TG_ECET_Application.pdf");
         <div className="container mx-auto max-w-7xl py-12 px-4">
 
           <PageBox
-            title="PRINT TG ECET (WP) - 2026 APPLICATION FORM"
+            title="PRINT M.E/M.Tech.(CEEP) - 2026 APPLICATION FORM"
           >
 
             <form onSubmit={handleSubmit}>
@@ -637,7 +637,7 @@ pdf.save("TG_ECET_Application.pdf");
 
                   >
 
-                    TG ECET(WP) - 2026 APPLICATION FORM
+                    M.E/M.Tech.(CEEP) - 2026 APPLICATION FORM
 
                   </h1>
 

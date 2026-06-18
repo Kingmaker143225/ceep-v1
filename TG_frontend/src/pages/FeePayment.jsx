@@ -409,7 +409,7 @@ else {
 
             <p className="text-sm text-gray-800 leading-relaxed mb-6">
               I have read the Detailed Notification and Instruction Booklet.
-              I declare that I have ensured my eligibility criteria for TG ECET(WP) - 2026 examination.
+              I declare that I have ensured my eligibility criteria for M.E/M.Tech.(CEEP) - 2026 examination.
             </p>
 
             <div className="flex justify-end gap-3">
@@ -440,7 +440,7 @@ else {
       <div className="container mx-auto max-w-7xl py-12 px-4">
         <div className="border border-gray-300 bg-[#f8fbf8] shadow-sm">
           <h2 className="bg-[#4b3f8f] text-white text-center font-bold text-xl py-2">
-            FEE PAYMENT FOR TG ECET (WP) - 2026
+            FEE PAYMENT FOR M.E/M.Tech.(CEEP) - 2026
           </h2>
 
           <form onSubmit={handleSubmit} className="p-6 space-y-5">
@@ -611,7 +611,7 @@ else {
                   className="w-5 h-5"
                 />
                 <span className="text-[#06254D] font-medium text-base">
-                  I have carefully gone through the Detailed Notification, Eligibility Criteria and Instruction Booklet. I am responsible for the correctness of the above details filled in by me and the CONVENER, TG ECET (WP) - 2026 is not responsible in any way.
+                  I have carefully gone through the Detailed Notification, Eligibility Criteria and Instruction Booklet. I am responsible for the correctness of the above details filled in by me and the CONVENER, M.E/M.Tech.(CEEP) - 2026 is not responsible in any way.
                 </span>
               </label>
             </div>

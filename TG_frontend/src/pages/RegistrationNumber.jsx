@@ -350,7 +350,7 @@
 //       <div className="container mx-auto max-w-7xl py-12 px-4">
 
 //         <PageBox
-//           title="KNOW YOUR REGISTRATION NUMBER FOR TG ECET (WP) - 2026"
+//           title="KNOW YOUR REGISTRATION NUMBER FOR M.E/M.Tech.(CEEP) - 2026"
 //         >
 
 //           <form onSubmit={handleSubmit}>

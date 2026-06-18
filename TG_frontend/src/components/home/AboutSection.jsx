@@ -14,7 +14,7 @@ export default function AboutSection() {
   <PersonCard 
   name="Sr. Prof. Kumar Molugaram"
 
-  role={`Chairman, TG ECET (WP)-2026 &`}
+  role={`Chairman, M.E/M.Tech.(CEEP)-2026 &`}
   role2={`Vice-Chancellor, Osmania University, Hyderabad-500007 Telangana, India.`}
     
 
@@ -34,7 +34,7 @@ export default function AboutSection() {
       letterSpacing: "0px",
     }}
   >
-    About TG ECET (WP)-2026
+    About M.E/M.Tech.(CEEP)-2026
   </h2>
 
   <div className="h-1 w-20 bg-yellow-500 mt-3 rounded-full mx-auto lg:mx-0" />
@@ -42,7 +42,7 @@ export default function AboutSection() {
 
             <div className="prose prose-lg prose-slate text-muted-foreground leading-relaxed text-justify">
               <p>
-                Telangana Engineering Common Entrance Test (TG ECET(WP)-2026) is conducted by Osmania University on behalf of TGCHE for lateral entry admissions into engineering.
+                Telangana Engineering Common Entrance Test (M.E/M.Tech.(CEEP)-2026) is conducted by Osmania University on behalf of TGCHE for lateral entry admissions into engineering.
               </p>
 
               <p>
@@ -61,7 +61,7 @@ export default function AboutSection() {
   <PersonCard 
   name="Prof. P. Chandra Sekhar"
 
-  role={`Convener, TG ECET (WP)-2026 &`}
+  role={`Convener, M.E/M.Tech.(CEEP)-2026 &`}
   role2={`Principal, University College of Engineering (A),Osmania University, Hyderabad-500007
 Telangana, India.`}
     

@@ -20,7 +20,7 @@ export default function Hero() {
         className="absolute top-[20px] left-0 right-0 mx-auto w-full max-w-4xl text-center z-20 px-4"
       >
         {/* <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-md">
-          TG ECET (WP)-2026
+          M.E/M.Tech.(CEEP)-2026
         </h1> */}
         <h1
   className="text-4xl md:text-6xl leading-tight drop-shadow-md"

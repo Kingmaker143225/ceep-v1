@@ -12,7 +12,7 @@ export default function CollegeList() {
  
       <div className="container mx-auto max-w-6xl py-12 px-4">
         {/* <h2 className="text-2xl font-bold text-[#06254D] mb-6 text-center">
-          TG ECET(WP) College List - 2026
+          M.E/M.Tech.(CEEP) College List - 2026
         </h2> */}
         <h1
   className="text-2xl md:text-4xl leading-tight drop-shadow-md text-[#06254D] text-center mb-10"
@@ -24,7 +24,7 @@ export default function CollegeList() {
     // color: "#ffffff",
   }}
 >
-  TG ECET (WP)-2026 List of Colleges
+  M.E/M.Tech.(CEEP)-2026 List of Colleges
 </h1>
  
         <div className="space-y-6">

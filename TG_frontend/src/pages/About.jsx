@@ -5,7 +5,7 @@
 //   return (
 //     <SiteLayout>
 //       <PageBanner
-//         title="About TG ECET (WP)-2026"
+//         title="About M.E/M.Tech.(CEEP)-2026"
 //         crumbs={[{ label: "About" }]}
 //       />
 
@@ -17,7 +17,7 @@
 
 //           <p className="text-lg text-muted-foreground leading-relaxed text-justify">
 //             Telangana Engineering Common Entrance Test for Diploma Holders (Working Professional)
-//             Engineering/Technology in short form as TG ECET (WP)- 2026
+//             Engineering/Technology in short form as M.E/M.Tech.(CEEP)- 2026
 //             is being conducted by Osmania University Hyderabad on behalf of the
 //             Telangana Council of Higher Education (TGCHE) for the academic year
 //             2026-2027. This examination is the prerequisite for lateral entry
@@ -33,7 +33,7 @@
 //             providing quality Technical Education for 100 plus years. Telangana
 //             Council of Higher Education (TGCHE) has delegated the task to
             
-//              <b> Telangana Council of Higher Education (TGCHE)</b> has delegated the task to <b>Osmania University</b> for conducting the prestigious <b>Telangana Engineering Common Entrance Test for Working Professionals (TG ECET (WP)-2026)</b> for the year 2026, and the examination will be conducted in <b>PHYSICAL</b> mode only.
+//              <b> Telangana Council of Higher Education (TGCHE)</b> has delegated the task to <b>Osmania University</b> for conducting the prestigious <b>Telangana Engineering Common Entrance Test for Working Professionals (M.E/M.Tech.(CEEP)-2026)</b> for the year 2026, and the examination will be conducted in <b>PHYSICAL</b> mode only.
           
 //           </p>
 
@@ -65,7 +65,7 @@ export default function About() {
   return (
     <SiteLayout>
       <PageBanner
-        title="About TG ECET (WP)-2026"
+        title="About M.E/M.Tech.(CEEP)-2026"
         crumbs={[{ label: "About" }]}
       />
 
@@ -81,7 +81,7 @@ export default function About() {
             <p>
               Telangana Engineering Common Entrance Test for Diploma Holders
               (Working Professional) Engineering/Technology in short form as
-              TG ECET (WP)-2026 is being conducted by Osmania University,
+              M.E/M.Tech.(CEEP)-2026 is being conducted by Osmania University,
               Hyderabad on behalf of Telangana Council of Higher Education
               (TGCHE) for the academic year 2026-2027.
             </p>
@@ -96,7 +96,7 @@ export default function About() {
             <p>
               Telangana Council of Higher Education (TGCHE) has delegated the
               task to <strong>Osmania University</strong> for conducting the
-              prestigious <strong>TG ECET (WP)-2026</strong>. The examination
+              prestigious <strong>M.E/M.Tech.(CEEP)-2026</strong>. The examination
               will be conducted in <strong>PHYSICAL</strong> mode only.
             </p>
           </div>
