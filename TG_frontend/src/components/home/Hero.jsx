@@ -32,7 +32,7 @@ export default function Hero() {
     color: "#ffffff",
   }}
 >
-  M.E/M.Tech.(CEEP) ADMISSIONS 2025-2026
+  M.E/M.Tech.(CEEP) ADMISSIONS 2026-2027
 </h1>
 
         {/* <p className="text-lg md:text-xl text-white mb-10 max-w-2xl mx-auto font-medium">

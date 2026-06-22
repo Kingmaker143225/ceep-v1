@@ -25,17 +25,13 @@ async (applicationData) => {
     .single();
  
   if (error) {
- 
-    console.log(
-      "SUPABASE INSERT ERROR =>",
-      error
-    );
- 
-    throw new Error(
-      error.message
-    );
- 
-  }
+  console.log("=================================");
+  console.log("SUPABASE INSERT ERROR =>");
+  console.log(error);
+  console.log(JSON.stringify(error, null, 2));
+  console.log("=================================");
+  throw new Error(error.message);
+}
  
   return data;
  

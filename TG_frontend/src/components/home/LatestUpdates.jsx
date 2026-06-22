@@ -312,7 +312,7 @@
 
 //           <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
 //             Stay informed with all the latest notifications, application steps,
-//             and announcements for M.E/M.Tech.(CEEP) ADMISSIONS 2025-2026.
+//             and announcements for M.E/M.Tech.(CEEP) ADMISSIONS 2026-2027.
 //           </p> */}
 //         </div>
 
@@ -839,7 +839,7 @@ export default function LatestUpdates() {
 
           <p className="text-sm text-muted-foreground mt-3 max-w-2xl mx-auto">
             Stay informed with all the latest notifications, application steps,
-            and announcements for M.E/M.Tech.(CEEP) ADMISSIONS 2025-2026.
+            and announcements for M.E/M.Tech.(CEEP) ADMISSIONS 2026-2027.
           </p> */}
         </div>
 

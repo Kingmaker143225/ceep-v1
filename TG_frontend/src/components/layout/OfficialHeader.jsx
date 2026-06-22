@@ -124,7 +124,7 @@ export default function OfficialHeader() {
     // color: "#1e0973",
   }}
 >
-  M.E/M.Tech.(CEEP) ADMISSIONS 2025-2026 
+  M.E/M.Tech.(CEEP) ADMISSIONS 2026-2027 
 </h1>
 
           {/* <p className="text-sm md:text-base lg:text-lg text-[#06254D] mt-2">
