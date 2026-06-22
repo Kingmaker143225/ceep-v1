@@ -57,7 +57,7 @@ const {
  
 } = req.body;
 const paymentRef =
-  `TGECET${Date.now()}`;
+  `CEEP${Date.now()}`;
   let finalAmount = 0;
  
 // ======================
