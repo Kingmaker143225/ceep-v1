@@ -1,3 +1,4 @@
+
 // import { useState } from "react";
 
 // import SiteLayout
@@ -350,44 +351,143 @@
 //       <div className="container mx-auto max-w-7xl py-12 px-4">
 
 //         <PageBox
-//           title="KNOW YOUR REGISTRATION NUMBER FOR M.E/M.Tech.(CEEP) - 2026"
+//           title="KNOW YOUR REGISTRATION NUMBER "
 //         >
 
 //           <form onSubmit={handleSubmit}>
 
-//             <div className="grid md:grid-cols-4 gap-6">
+//            <div className="max-w-3xl mx-auto">
 
-//               <Input
+//   {/* Hall Ticket */}
+//   <div className="flex items-center mb-4">
+//     <label className="w-80 text-right pr-4 font-semibold">
+//       SSC/10th Standard Hall Ticket Number
+//     </label>
 
-//                 label="Mobile Number *"
+//     <input
+//       type="text"
+//       name="hallTicket"
+//       value={form.hallTicket}
+//       onChange={handleChange}
+//       className="w-[320px] border border-gray-300 px-3 py-2"
+//     />
+//   </div>
 
-//                 name="mobile"
+//   {/* DOB */}
+//   <div className="flex items-center mb-4">
+//     <label className="w-80 text-right pr-4 font-semibold">
+//       Date Of Birth <span className="text-red-600">*</span>
+//     </label>
 
-//                 value={form.mobile}
+//     <div className="flex gap-2">
+//       <select
+//         name="dobDay"
+//         value={form.dobDay}
+//         onChange={handleChange}
+//         className="border border-gray-300 px-2 py-2"
+//       >
+//         <option value="">Day</option>
+//         {Array.from({ length: 31 }, (_, i) => (
+//           <option key={i + 1}>{i + 1}</option>
+//         ))}
+//       </select>
 
-//                 onChange={handleChange}
+//       <select
+//         name="dobMonth"
+//         value={form.dobMonth}
+//         onChange={handleChange}
+//         className="border border-gray-300 px-2 py-2"
+//       >
+//         <option value="">Month</option>
+//         {[
+//           "January",
+//           "February",
+//           "March",
+//           "April",
+//           "May",
+//           "June",
+//           "July",
+//           "August",
+//           "September",
+//           "October",
+//           "November",
+//           "December",
+//         ].map((month) => (
+//           <option key={month} value={month}>
+//             {month}
+//           </option>
+//         ))}
+//       </select>
 
-//                 placeholder="Enter Mobile Number"
+//       <select
+//         name="dobYear"
+//         value={form.dobYear}
+//         onChange={handleChange}
+//         className="border border-gray-300 px-2 py-2"
+//       >
+//         <option value="">Year</option>
 
-//               />
+//         {Array.from(
+//           { length: 90 },
+//           (_, i) => new Date().getFullYear() - i
+//         ).map((year) => (
+//           <option key={year}>{year}</option>
+//         ))}
+//       </select>
+//     </div>
+//   </div>
 
-//               <Input
+//   {/* Mobile */}
+//   <div className="flex items-center mb-4">
+//     <label className="w-80 text-right pr-4 font-semibold">
+//       Mobile Number (10 digits)
+//       <span className="text-red-600">*</span>
+//     </label>
 
-//                 label="Date of Birth * (dd/mm/yyyy)"
+//     <input
+//       type="text"
+//       name="mobile"
+//       maxLength={10}
+//       value={form.mobile}
+//       onChange={handleChange}
+//       className="w-[320px] border border-gray-300 px-3 py-2"
+//     />
+//   </div>
 
-//                 name="dob"
+//   {/* Email */}
+//   <div className="flex items-center mb-8">
+//     <label className="w-80 text-right pr-4 font-semibold">
+//       Email Id <span className="text-red-600">*</span>
+//     </label>
 
-//                 value={form.dob}
+//     <input
+//       type="email"
+//       name="email"
+//       value={form.email}
+//       onChange={handleChange}
+//       className="w-[320px] border border-gray-300 px-3 py-2"
+//     />
+//   </div>
 
-//                 onChange={handleChange}
+//   {/* Submit */}
+//   <div className="text-center">
+//     <button
+//       type="submit"
+//       className="
+//         px-8 py-2
+//         border border-gray-400
+//         bg-gray-100
+//         hover:bg-gray-200
+//         font-semibold
+//       "
+//     >
+//       Submit
+//     </button>
+//   </div>
 
-//                 placeholder="dd/mm/yyyy"
+// </div>
 
-//               />
-
-//             </div>
-
-//             <div className="text-center mt-8">
+//             {/* <div className="text-center mt-8">
 
 //               <button
 
@@ -401,7 +501,7 @@
 
 //               </button>
 
-//             </div>
+//             </div> */}
 
 //           </form>
 
@@ -629,7 +729,6 @@
 //   );
 
 // }
-
 
 
 
@@ -990,143 +1089,44 @@ export default function RegistrationNumber() {
       <div className="container mx-auto max-w-7xl py-12 px-4">
 
         <PageBox
-          title="KNOW YOUR REGISTRATION NUMBER "
+          title="KNOW YOUR REGISTRATION NUMBER FOR M.E/M.Tech.(CEEP) - 2026"
         >
 
           <form onSubmit={handleSubmit}>
 
-           <div className="max-w-3xl mx-auto">
+            <div className="grid md:grid-cols-4 gap-6">
 
-  {/* Hall Ticket */}
-  <div className="flex items-center mb-4">
-    <label className="w-80 text-right pr-4 font-semibold">
-      SSC/10th Standard Hall Ticket Number
-    </label>
+              <Input
 
-    <input
-      type="text"
-      name="hallTicket"
-      value={form.hallTicket}
-      onChange={handleChange}
-      className="w-[320px] border border-gray-300 px-3 py-2"
-    />
-  </div>
+                label="Mobile Number *"
 
-  {/* DOB */}
-  <div className="flex items-center mb-4">
-    <label className="w-80 text-right pr-4 font-semibold">
-      Date Of Birth <span className="text-red-600">*</span>
-    </label>
+                name="mobile"
 
-    <div className="flex gap-2">
-      <select
-        name="dobDay"
-        value={form.dobDay}
-        onChange={handleChange}
-        className="border border-gray-300 px-2 py-2"
-      >
-        <option value="">Day</option>
-        {Array.from({ length: 31 }, (_, i) => (
-          <option key={i + 1}>{i + 1}</option>
-        ))}
-      </select>
+                value={form.mobile}
 
-      <select
-        name="dobMonth"
-        value={form.dobMonth}
-        onChange={handleChange}
-        className="border border-gray-300 px-2 py-2"
-      >
-        <option value="">Month</option>
-        {[
-          "January",
-          "February",
-          "March",
-          "April",
-          "May",
-          "June",
-          "July",
-          "August",
-          "September",
-          "October",
-          "November",
-          "December",
-        ].map((month) => (
-          <option key={month} value={month}>
-            {month}
-          </option>
-        ))}
-      </select>
+                onChange={handleChange}
 
-      <select
-        name="dobYear"
-        value={form.dobYear}
-        onChange={handleChange}
-        className="border border-gray-300 px-2 py-2"
-      >
-        <option value="">Year</option>
+                placeholder="Enter Mobile Number"
 
-        {Array.from(
-          { length: 90 },
-          (_, i) => new Date().getFullYear() - i
-        ).map((year) => (
-          <option key={year}>{year}</option>
-        ))}
-      </select>
-    </div>
-  </div>
+              />
 
-  {/* Mobile */}
-  <div className="flex items-center mb-4">
-    <label className="w-80 text-right pr-4 font-semibold">
-      Mobile Number (10 digits)
-      <span className="text-red-600">*</span>
-    </label>
+              <Input
 
-    <input
-      type="text"
-      name="mobile"
-      maxLength={10}
-      value={form.mobile}
-      onChange={handleChange}
-      className="w-[320px] border border-gray-300 px-3 py-2"
-    />
-  </div>
+                label="Date of Birth * (dd/mm/yyyy)"
 
-  {/* Email */}
-  <div className="flex items-center mb-8">
-    <label className="w-80 text-right pr-4 font-semibold">
-      Email Id <span className="text-red-600">*</span>
-    </label>
+                name="dob"
 
-    <input
-      type="email"
-      name="email"
-      value={form.email}
-      onChange={handleChange}
-      className="w-[320px] border border-gray-300 px-3 py-2"
-    />
-  </div>
+                value={form.dob}
 
-  {/* Submit */}
-  <div className="text-center">
-    <button
-      type="submit"
-      className="
-        px-8 py-2
-        border border-gray-400
-        bg-gray-100
-        hover:bg-gray-200
-        font-semibold
-      "
-    >
-      Submit
-    </button>
-  </div>
+                onChange={handleChange}
 
-</div>
+                placeholder="dd/mm/yyyy"
 
-            {/* <div className="text-center mt-8">
+              />
+
+            </div>
+
+            <div className="text-center mt-8">
 
               <button
 
@@ -1140,7 +1140,7 @@ export default function RegistrationNumber() {
 
               </button>
 
-            </div> */}
+            </div>
 
           </form>
 
@@ -1368,4 +1368,11 @@ function Detail({
   );
 
 }
+
+
+
+
+
+
+
 
