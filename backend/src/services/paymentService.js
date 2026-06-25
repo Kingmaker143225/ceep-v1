@@ -1915,6 +1915,7 @@ async (
       mobile
 
     )
+    .eq("date_of_birth", dob)
 
     .maybeSingle();
 
